@@ -2,6 +2,7 @@
   "name": "invoice-module",
   "version": "0.1.0",
   "private": true,
+  "main": "static/js/main.7ff6957d.js",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -10,6 +11,12 @@
     "@loadable/babel-plugin": "^5.13.2",
     "@loadable/component": "^5.15.2",
     "@loadable/webpack-plugin": "^5.15.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   },
   "plugins": [
     "@loadable/babel-plugin"
